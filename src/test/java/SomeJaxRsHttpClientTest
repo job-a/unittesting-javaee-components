@@ -35,7 +35,7 @@ public class SomeJaxRsHttpClientTest {
 	}
 	
 	@Test
-	public void testBestaandePostcode() {
+	public void testHttpCall() {
 		// given
 		when(response.getStatus()).thenReturn(200);
 		when(response.readEntity(Boolean.class)).thenReturn(true);
